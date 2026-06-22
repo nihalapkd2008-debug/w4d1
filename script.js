@@ -52,5 +52,11 @@ console.log(vegetable1);
 console.log(vegetable2);
 console.log(vegetable3);
 
+let profile = {
+  username: "niha123",
+  followers: 18,
+  following : 200
+};
+let { username, followers, following}
 
 
