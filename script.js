@@ -54,9 +54,14 @@ console.log(vegetable3);
 
 let profile = {
   username: "niha123",
-  followers: 18,
   following : 200
 };
-let { username, followers, following}
+let { username, following} = profile;
+console.log(username);
+console.log(following);
 
+let [first, ...others] =
+["Apple", "Orange", "Mango", "Grapes"];
 
+console.log(first);
+console.log(others);
