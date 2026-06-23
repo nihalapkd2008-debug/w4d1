@@ -1,6 +1,6 @@
-// ==========================================
+
 // 1. OLD JAVASCRIPT CODE
-// ==========================================
+
 
 var studentName = "Nihala";
 var studentAge = 18;
@@ -9,9 +9,9 @@ console.log("Student Name: " + studentName);
 console.log("Student Age: " + studentAge);
 
 
-// ==========================================
+
 // 2. REFACTORED ES6+ CODE
-// ==========================================
+
 
 const name = "Nihala";
 const age = 18;
@@ -20,9 +20,9 @@ console.log(`Student Name: ${name}`);
 console.log(`Student Age: ${age}`);
 
 
-// ==========================================
+
 // 3. STUDENT OBJECT
-// ==========================================
+
 
 const student = {
     name: "Nihala",
@@ -31,10 +31,8 @@ const student = {
     city: "Palakkad"
 };
 
-
-// ==========================================
 // 4. DESTRUCTURING
-// ==========================================
+
 
 const { name: studentName2, age: studentAge2, course, city } = student;
 
@@ -44,9 +42,8 @@ console.log(course);
 console.log(city);
 
 
-// ==========================================
 // 5. DISPLAY STUDENT DATA
-// ==========================================
+
 
 const studentDiv = document.getElementById("studentInfo");
 
@@ -58,9 +55,9 @@ studentDiv.innerHTML = `
 `;
 
 
-// ==========================================
+
 // 6. ARRAY CLONING
-// ==========================================
+
 
 const fruits = [
     "Apple",
@@ -78,9 +75,9 @@ console.log("Original Array:", fruits);
 console.log("Cloned Array:", clonedFruits);
 
 
-// ==========================================
+
 // 7. DISPLAY ARRAYS
-// ==========================================
+
 
 const arrayDiv = document.getElementById("arrayInfo");
 
@@ -93,9 +90,9 @@ arrayDiv.innerHTML = `
 `;
 
 
-// ==========================================
+
 // 8. OBJECT CLONING
-// ==========================================
+
 
 const clonedStudent = {
     ...student
@@ -108,9 +105,8 @@ console.log("Original Object:", student);
 console.log("Cloned Object:", clonedStudent);
 
 
-// ==========================================
+
 // 9. DISPLAY OBJECTS
-// ==========================================
 
 const objectDiv = document.getElementById("objectInfo");
 
@@ -121,9 +117,8 @@ objectDiv.innerHTML = `
 `;
 
 
-// ==========================================
+
 // 10. ARROW FUNCTION
-// ==========================================
 
 const greet = (name) => {
     return `Welcome ${name}!`;
@@ -132,9 +127,8 @@ const greet = (name) => {
 console.log(greet(studentName2));
 
 
-// ==========================================
 // 11. DEFAULT PARAMETER
-// ==========================================
+
 
 const showCourse = (courseName = "JavaScript") => {
     console.log(`Course: ${courseName}`);
