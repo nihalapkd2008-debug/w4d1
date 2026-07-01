@@ -1,7 +1,7 @@
 // 1. OLD JAVASCRIPT CODE
 
 var oldStudentName = "Nihala";
-var oldStudentAge = 18;
+var oldStudentAge = 19;
 
 console.log("Student Name: " + oldStudentName);
 console.log("Student Age: " + oldStudentAge);
